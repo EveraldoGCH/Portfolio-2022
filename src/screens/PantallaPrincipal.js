@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 function PantallaPrincipal() {
   return (
     <div>
-        PantallaPrincipal
+        PantallaPrincipalisima
         <Link to={"/Yo"}>YOOO</Link>
     </div>
   )
