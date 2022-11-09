@@ -1,23 +1,19 @@
 // import logo from './logo.svg';
 // import './App.css';
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Me from "./screens/Me";
+import PantallaPrincipal from "./screens/PantallaPrincipal";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<PantallaPrincipal/>}/>
+    <Route path="/Yo" element={<Me/>}/>
+  </Routes>
+  </BrowserRouter>
+    // <div className="App">
+    // </div>
   );
 }
 
