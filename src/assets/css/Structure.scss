@@ -1,0 +1,71 @@
+.cont-PantallaPrincipal{
+    background-color: #F7EDE2;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 100px;
+  
+}
+
+
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px #c4c4c4 solid;
+    position: fixed;
+    top: 0;
+    right: 0;
+    .tuEmpresa{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: -.06em;
+        margin: 0;
+
+        span{
+            // display: block;
+            line-height: 0.8;
+            position: relative;
+            
+            color: white;
+        }
+        .span1{
+            padding: 3px 0;
+        }
+        .span1::before{
+            content: "Tu empresa";
+            background: linear-gradient(90deg, #84A59D , #F28482);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            height: 100%;
+        }
+        .span2::before{
+            content: "+";
+            background: linear-gradient(90deg, #F6BD60, #F28482);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            animation: animacion 7s infinite;
+        }
+        .span3::before{
+            content: "Everaldo.";
+            background: linear-gradient(90deg, #F28482, #84A59D);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            animation: animacion 7s infinite;
+        }
+        span::before{
+            position: absolute;
+           
+        }
+        @keyframes animacion{
+            0%, 16.667%, 100%{
+                opacity: 0;
+            }
+            33.333%, 83.333%{
+                opacity: 1;
+            }
+        }
+    }
+}

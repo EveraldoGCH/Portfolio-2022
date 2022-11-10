@@ -3,6 +3,7 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Me from "./screens/Me";
 import PantallaPrincipal from "./screens/PantallaPrincipal";
+import "./assets/css/App.css"
 
 function App() {
   return (

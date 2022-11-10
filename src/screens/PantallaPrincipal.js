@@ -1,11 +1,15 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
+
+import Structure from "../components/Structure"
+
 
 function PantallaPrincipal() {
   return (
-    <div>
-        PantallaPrincipalisima
-        <Link to={"/Yo"}>YOOO</Link>
-    </div>
+        <Structure>
+            <div>
+                <span>HOLA</span>
+            </div>
+        </Structure>
   )
 }
 
