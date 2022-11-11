@@ -4,7 +4,7 @@ import Header from "./Header"
 
 function Structure({children}) {
   return (
-    <div className="cont-PantallaPrincipal">
+    <div className="cont-Structure">
             <Header/>
             {children}
     </div>
