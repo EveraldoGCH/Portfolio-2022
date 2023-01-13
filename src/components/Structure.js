@@ -1,5 +1,5 @@
 import React from 'react'
-import "../assets/css/Structure.scss"
+import "../assets/css/Components/Structure.scss"
 import Header from "./Header"
 
 function Structure({children}) {

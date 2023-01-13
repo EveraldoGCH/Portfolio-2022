@@ -1,8 +1,12 @@
 // import { Link } from "react-router-dom"
 import Structure from "../components/Structure"
-import "../assets/css/PantallaPrincipal.scss"
+import "../assets/css/Screens/PantallaPrincipal.scss"
 import foto from "../assets/img/FOTOCV.png"
 import emoji from "../assets/img/emoji.png"
+import CardsAboutMe from "../components/CardsAboutMe"
+import LogrosCards from "../components/TrabajoCards"
+import MePresentation from "../components/MePresentation"
+import MisHabilidades from "../components/MisHabilidades"
 
 
 function PantallaPrincipal() {
@@ -21,19 +25,23 @@ function PantallaPrincipal() {
                 </article>
                 <aside className="foto-PP">
                     <div className="cont-Foto"></div>
-                    <img src={foto} alt="Foto de Everaldo muy fachera" className="Foto"/>
+                    <img src={foto} alt="Foto de Everaldo donde sale muy lindo" className="Foto"/>
                 </aside>
                 <section className="cards-cont">
                     <div className="pero-cont">
                         <h2>Pero... ¿Por qué yo?</h2>
                         <img src={emoji} className="emoji" alt="emoji"/>
                     </div>
-                    <div className="cards">
-
-                    </div>
-
+                    <CardsAboutMe/>
                 </section>
+                <section className="logros-cont">
+                    <h2>Mi Trabajo</h2>
+                    <LogrosCards/>
+                </section>
+                <MePresentation/>
+                <MisHabilidades/>
                 <div className="Form-bg"></div>
+                
             </div>
         </Structure>
   )

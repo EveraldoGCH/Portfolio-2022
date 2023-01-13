@@ -1,0 +1,34 @@
+.MePresent-cont{
+    width: 100%;
+    background-color: #f4faff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 32px;
+}
+
+.bloque1{
+    width: 47%;
+    
+}
+.bloque2{
+    width: 47%;
+    z-index: 1;
+    h1{
+        color:#2b343c;
+        font-size: 32px;
+        margin: 0;
+    }
+    label{
+        margin-left: 16px;
+        text-align: justify;
+    }
+}
+.check-cont{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.checkbox{
+transform: scale(1.3)
+}

@@ -1,0 +1,43 @@
+.Card2{
+    background-color: white;
+    width: 27%;
+    padding:2% 4%;
+    text-align: center;
+    border: solid 1px #D0DEEB;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px 0 rgb(60 151 234 / 15%);
+    transition: ease 0.3s;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.Card2:hover{
+transform: translateY(-7%);
+border: 1px solid #007CF0;
+}
+
+.card-icon-cont{
+    width: 100%;
+    height: 22%;
+    img{
+        width: 30%;
+    }
+}
+
+.first{
+    background-color: #c5c5c5;
+    filter: grayscale(0.7);
+    padding:2% 6%;
+    img{
+        width: 35%;
+    }
+}
+
+.dh{
+    img{
+        width: 70%;
+    }
+}
