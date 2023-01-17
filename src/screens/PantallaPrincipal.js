@@ -6,7 +6,8 @@ import emoji from "../assets/img/emoji.png"
 import CardsAboutMe from "../components/CardsAboutMe"
 import LogrosCards from "../components/TrabajoCards"
 import MePresentation from "../components/MePresentation"
-import MisHabilidades from "../components/MisHabilidades"
+import MisTecnologias from "../components/MisTecnologias"
+import Palabras from "../components/Palabras"
 
 
 function PantallaPrincipal() {
@@ -39,9 +40,10 @@ function PantallaPrincipal() {
                     <LogrosCards/>
                 </section>
                 <MePresentation/>
-                <MisHabilidades/>
+                <MisTecnologias/>
+                <Palabras/>
                 <div className="Form-bg"></div>
-                
+                <div className="Form3-bg"></div>
             </div>
         </Structure>
   )

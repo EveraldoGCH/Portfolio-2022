@@ -101,6 +101,23 @@
     transform: rotate(48deg);
 }
 
+.Form3-bg{
+    width: 800px;
+    height: 400px;
+    border-top-left-radius: 600px;
+    border-top-right-radius: 600px;
+    border: 230px solid #C7EBFC;
+    border-bottom: 0;
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 0;
+    top: 500%;
+    right: 70%;
+    transition: 0.2s ease-in;
+}
+.Form3-bg:hover{
+    transform: rotate(183deg);
+}
 .logros-cont{
     width: 100%;
     background-color: #f4faff;
