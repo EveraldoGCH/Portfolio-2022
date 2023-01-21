@@ -2,8 +2,6 @@
 import Structure from "../components/Structure";
 import "../assets/css/Screens/PantallaPrincipal.scss";
 import foto from "../assets/img/FOTOCV.png";
-import emoji from "../assets/img/emoji.png";
-import CardsAboutMe from "../components/CardsAboutMe";
 import LogrosCards from "../components/TrabajoCards";
 import MePresentation from "../components/MePresentation";
 import MisTecnologias from "../components/MisTecnologias";
@@ -24,7 +22,7 @@ function PantallaPrincipal() {
           </div>
           <div className="BtnsContactCont">
             <span
-              className="btnContact"
+              className="btnContact2"
               onClick={() =>
                 window.open(
                   "https://wa.me/5491123286036?text=Hola,%20me%20contacto%20desde%20tu%20pagina%20web%20para:")}>

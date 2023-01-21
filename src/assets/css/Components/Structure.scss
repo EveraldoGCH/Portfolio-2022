@@ -74,7 +74,7 @@ header{
         }
     }
     .BtnsHeader{
-        width: 40%;
+        width: 50%;
         height: 80%;
         display: flex;
         align-items: center;
@@ -97,3 +97,16 @@ header{
         color: white;
     }
 }
+@media(max-width:770px){
+    .DwnldMiCV{
+        display: none;
+    }
+    header .btnContact{
+        padding: 2vh 2vw;
+        font-size: 16px;
+    }
+    header .BtnsHeader{
+        width: 26%;
+    }
+}
+
