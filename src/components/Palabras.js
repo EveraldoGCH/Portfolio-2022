@@ -1,6 +1,5 @@
 import React from 'react'
 import "../assets/css/Components/Palabras.scss"
-import profesor from "../assets/img/prof.png"
 import mariana from "../assets/img/mariana.jpeg"
 import hernan from "../assets/img/hernan.jpeg"
 
@@ -14,7 +13,7 @@ export default function Palabras() {
                     <img src={mariana} alt="PROFE"/>
                 </div>
                 <div className='PhrasePersona-cont'>
-                <p className='offsetText'>Amo a mi hermano porque es el mejor del mundo y me ama demasiado</p>
+                    <p className='offsetText'>"Es una persona muy motivada, que aprende rápido y no le tiene miedo a los desafíos. Además de sus capacidades técnicas, también es alguien en quien se puede confiar para pertenecer a un equipo y dar lo mejor de si mismo. Todo el que decida contratarlo, está tomando a una persona honesta y resolutiva" :)</p>
                     <p className='offsetName'>Mariana Guevara</p>
                     <p className='offsetProffession'>Analista de Marketing @ Growth Hack Studio</p>
                     <p className='offsetProffession'>Lic. en comunicación social</p>
@@ -33,6 +32,7 @@ export default function Palabras() {
                 </div>
             </article>
         </div>
+        <div className="Form3-bg"></div>
     </section>
   )
 }
