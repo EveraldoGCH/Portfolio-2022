@@ -109,3 +109,11 @@
     color: white;
     z-index: 1;
 }
+@media(max-width:770px){
+    .logros-cont{
+        h2{
+            font-size: 22px;
+            text-align: center;
+        }
+    }
+}

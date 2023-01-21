@@ -39,3 +39,11 @@
         margin: 0;
     }
 }
+@media(max-width:770px){
+    .CardsAboutMe{
+        flex-direction: column;
+        article{
+            width: 95%;
+        }
+    }
+}

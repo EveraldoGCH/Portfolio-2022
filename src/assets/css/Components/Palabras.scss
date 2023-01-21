@@ -102,3 +102,18 @@ p.offsetName{
 .Form3-bg:hover{
     transform: rotate(183deg);
 }
+@media(max-width:770px){
+    .PalabrasPersonas{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Palabras-cont{
+        margin-bottom: 0;
+        article{
+            width: 90%;
+        }
+        h2{
+            font-size: 16px;
+        }
+    }
+}
