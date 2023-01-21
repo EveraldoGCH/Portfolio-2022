@@ -39,9 +39,16 @@ a{
         align-items: center;
         article{
             width: 96%;
+            p{
+                text-align: center;
+            }
         }
     }
     .center{
         padding-top: 0;
+    }
+    a{
+        display: block;
+        text-align: center;
     }
 }

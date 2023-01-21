@@ -51,3 +51,13 @@
 .Form-degradada:hover{
     transform: rotate(143deg);
 }
+@media(max-width:770px){
+    .bloqueAzul{
+        span{
+            font-size: 22px;
+        }
+        p{
+            font-size: 22px;
+        }
+    }
+}

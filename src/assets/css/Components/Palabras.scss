@@ -108,12 +108,16 @@ p.offsetName{
         align-items: center;
     }
     .Palabras-cont{
+        margin-top: 0;
         margin-bottom: 0;
         article{
             width: 90%;
         }
         h2{
-            font-size: 16px;
+            font-size: 32px;
         }
+    }
+    .offsetProffession{
+        margin-bottom: 8px;
     }
 }
