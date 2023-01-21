@@ -16,7 +16,7 @@ function MePresentation() {
             <div className="check-cont"><input type="checkbox" className="checkbox" checked/><label>Quiero ser parte de la construcción de un proyecto del cuál me pueda enamorar</label></div>
             <div className="check-cont"><input type="checkbox" className="checkbox" checked/><label>Gran pensador abstracto que siempre está dispuesto a dar una mano al equipo</label></div>
         </div>
-        <div className="Form-bg2"></div>
+        
     </section>
     
     </>
