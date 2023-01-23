@@ -7,7 +7,8 @@ function MePresentation() {
     <>
     <section className="MePresent-cont">
         <div className="bloque1">
-            foto de eve
+            foto de eve baja mas
+            
         </div>
         <div className="bloque2">
             <h1>¿Por qué soy un buen candidato?</h1>

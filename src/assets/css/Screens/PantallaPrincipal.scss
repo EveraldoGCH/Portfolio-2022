@@ -5,7 +5,7 @@
 
     .titulos-PP {
         width: 50%;
-        height: 65vh;
+        height: 70vh;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
@@ -17,7 +17,7 @@
         }
 
         h2 {
-            font-size: 50px;
+            font-size: 3.5vw;
             margin: 0;
         }
 
@@ -31,6 +31,12 @@
             display: flex;
             align-items: center;
         }
+    }
+    .DwnldMiCV2{
+        text-decoration: none;
+        color:#007CF0;
+        font-size: 17px;
+        font-weight: 500;
     }
 
     .foto-PP {
@@ -110,10 +116,32 @@
     z-index: 1;
 }
 @media(max-width:770px){
+    .cont-PantallaPrincipal{
+        flex-direction: column;
+        align-items: center;
+        .titulos-PP{
+            width: 100%;
+            height: 65vh;
+            h2{
+                font-size: 7vw;
+            }
+            .BtnsContactCont{
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+        .foto-PP{
+            width: 95%;
+        }
+    }
+    
     .logros-cont{
         h2{
-            font-size: 22px;
+            font-size: 32px;
             text-align: center;
         }
+    }
+    .btnContact2{
+        margin-bottom: 40px;
     }
 }

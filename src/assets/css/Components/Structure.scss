@@ -27,11 +27,12 @@ header{
         span{
             // display: block;
             position: relative;
-            color: white;
+            color: transparent;
         }
         .span3{
             font-family: 'Axiforma', sans-serif;
             letter-spacing: -.06em;
+
         }
         .span1::before{
             content: "Tu empresa";
@@ -98,14 +99,24 @@ header{
     }
 }
 @media(max-width:770px){
+    .cont-Structure{
+        margin-top: 40px;
+    }
     .DwnldMiCV{
         display: none;
     }
+    header{
+        height: 55px;
+    }
+    
+
     header .btnContact{
         display: none;
     }
     header .BtnsHeader{
-        width: 26%;
+        display: none;
     }
+    
 }
+
 

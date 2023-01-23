@@ -9,6 +9,7 @@ import Palabras from "../components/Palabras";
 import BloqueAzul from "../components/BloqueAzul";
 import Footer from "../components/Footer";
 import PorqueYo from "../components/PorqueYo";
+import {Link} from "react-router-dom"
 
 function PantallaPrincipal() {
   return (
@@ -28,6 +29,12 @@ function PantallaPrincipal() {
                   "https://wa.me/5491123286036?text=Hola,%20me%20contacto%20desde%20tu%20pagina%20web%20para:")}>
               Contáctame
             </span>
+            {window.innerWidth<=770 ?
+            <Link to={require("../assets/files/Curriculum-2023.pdf")} className="DwnldMiCV2" target="_blank" download={"CV-EveraldoGuevara.pdf"}>
+                    Descarga mi CV
+            </Link>
+            :
+            null}
           </div>
         </article>
         <aside className="foto-PP">

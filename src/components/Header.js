@@ -1,5 +1,4 @@
 import React from 'react'
-import "../assets/css/Components/Structure.scss"
 import { Link } from "react-router-dom"
 
 
