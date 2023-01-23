@@ -29,19 +29,18 @@ header{
             position: relative;
             color: white;
         }
+        .span1{
+            background: linear-gradient(90deg, #007CF0 , #00DFD8);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+        }
         .span3{
             font-family: 'Axiforma', sans-serif;
             letter-spacing: -.06em;
             color: transparent;
         }
-        .span1::before{
-            content: "Tu empresa";
-            background: linear-gradient(90deg, #007CF0 , #00DFD8);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color:transparent;
-            height: 100%;
-        }
+        
         .span2::before{
             content: "+";
             background: linear-gradient(90deg, #FF0080, #FF4D4D);
