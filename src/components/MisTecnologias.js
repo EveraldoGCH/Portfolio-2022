@@ -8,6 +8,8 @@ import ts from "../assets/img/ts.png"
 import github from "../assets/img/github.png"
 import html from "../assets/img/html.png"
 import css from "../assets/img/css.png"
+import nextjs from "../assets/img/nextjs.png"
+
 
 export default function MisTecnologias() {
   return (
@@ -23,15 +25,11 @@ export default function MisTecnologias() {
           <img src={react} alt={`Node icon`}/>
           <h3>React & React Native</h3>
         </div>
-        
-        <div>
-          <img src={mysql} alt={`Node icon`}/>
-          <h3>MySQL</h3>
-        </div>
+
 
         <div>
-          <img src={js} alt={`Node icon`}/>
-          <h3>JavaScript</h3>
+          <img src={nextjs} alt={`Node icon`}/>
+          <h3>Next.js</h3>
         </div>
 
         <div>
@@ -39,9 +37,22 @@ export default function MisTecnologias() {
           <h3>Github</h3>
         </div>
         
+
+        <div>
+          <img src={js} alt={`Node icon`}/>
+          <h3>JavaScript</h3>
+        </div>
+
         <div>
           <img src={ts} alt={`Node icon`}/>
           <h3>Typescript</h3>
+        </div>
+
+        
+        
+        <div>
+          <img src={mysql} alt={`Node icon`}/>
+          <h3>MySQL</h3>
         </div>
         
         <div>
