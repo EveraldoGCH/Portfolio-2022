@@ -27,15 +27,12 @@ header{
         span{
             // display: block;
             position: relative;
-            color: transparent;
-        }
-        .span1{
             color: white;
         }
         .span3{
             font-family: 'Axiforma', sans-serif;
             letter-spacing: -.06em;
-
+            color: transparent;
         }
         .span1::before{
             content: "Tu empresa";
