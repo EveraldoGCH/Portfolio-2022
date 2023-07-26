@@ -8,7 +8,7 @@ function Card({img, name, title, em, classD}) {
               <img src={img} alt={`${name} icon`} className={classD || ""}/>
             </div>
             <h3>{title}</h3>
-            <br/>
+            
             <em>{em}</em>
     </article> 
   )

@@ -1,7 +1,6 @@
 .Card2-cont{
     background-color: white;
     width: 27%;
-    padding:2% 4%;
     text-align: center;
     border: solid 1px #D0DEEB;
     border-radius: 10px;
@@ -19,9 +18,12 @@ transform: translateY(-7%);
 border: 1px solid #007CF0;
 }
 
+em{
+    padding: 0 4px;
+}
+
 .Card2-cont .card-icon-cont{
     width: 100%;
-    height: 22%;
     img{
         width: 30%;
     }

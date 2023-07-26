@@ -25,7 +25,7 @@ export default function Palabras() {
                     <img src={hernan} alt="PROFE"/>
                 </div>
                 <div className='PhrasePersona-cont'>
-                    <p className='offsetText'>Amo a mi cuñado porque es el mejor del mundo y me ama demasidio</p>
+                    <p className='offsetText'>Su habilidad para resolver problemas es muy buena. Siempre encuentra soluciones innovadoras y eficientes para los desafíos que se presentan en el desarrollo. Además, es perseverante y no se da por vencido fácilmente, lo cual es crucial en un entorno donde la paciencia son fundamentales.</p>
                     <p className='offsetName'>Hernán F. Baravalle</p>
                     <p className='offsetProffession'>Full Stack Lead Instructor @ Hack Academy</p>
                     <p className='offsetProffession'>Desarrollador Front-end</p>

@@ -9,6 +9,7 @@ import github from "../assets/img/github.png"
 import html from "../assets/img/html.png"
 import css from "../assets/img/css.png"
 import nextjs from "../assets/img/nextjs.png"
+import nestjs from "../assets/img/nest.png"
 
 
 export default function MisTecnologias() {
@@ -63,6 +64,11 @@ export default function MisTecnologias() {
         <div>
           <img src={css} alt={`Node icon`}/>
           <h3>CSS</h3>
+        </div>
+
+        <div>
+          <img src={nestjs} alt={`Node icon`}/>
+          <h3>Nest.JS</h3>
         </div>
       </article>
     </section>

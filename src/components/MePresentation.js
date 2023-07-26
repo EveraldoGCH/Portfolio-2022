@@ -7,7 +7,7 @@ function MePresentation() {
     <>
     <section className="MePresent-cont">
         <div className="bloque1">
-            foto de eve baja mas
+            Foto que todavía no tengo (disculpa las molestias jeje)
             
         </div>
         <div className="bloque2">
